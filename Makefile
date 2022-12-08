@@ -7,8 +7,8 @@ format:
 	
 lint:
 	pylint --disable=R,C getdata.py
+	pylint --disable=R,C data_source_csv.py
 	
-
 test:
 	python -m pytest -vv --cov=getdata test_getdata.py
 	

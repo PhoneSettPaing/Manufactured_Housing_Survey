@@ -4,3 +4,6 @@ pytest-cov
 black
 requests
 bs4
+pandas
+openpyxl
+xlrd
